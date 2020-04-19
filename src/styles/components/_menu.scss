@@ -1,0 +1,26 @@
+.menu-bg {
+    background-color: fade-out($theme-red, .4);
+}
+
+.carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.large-hero__title {
+    font-size: $m-size;
+}
+
+.large-hero__subtitle {
+    font-size: $s-size;
+}
+
+@media(min-width: $desktop-breakpoint) {
+    .large-hero__title {
+        font-size: $l-size;
+    }
+    
+    .large-hero__subtitle {
+        font-size: $m-size;
+    }
+}
