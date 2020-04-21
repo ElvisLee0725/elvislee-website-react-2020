@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from './menu';
+import Header from './header';
 import Carousel from './carousel';
 import About from './about';
 import Project from './project';
@@ -7,7 +7,7 @@ import Project from './project';
 function App() {
     return (
         <div>
-            <Menu />
+            <Header />
             <Carousel />
             <About />
             <Project />
