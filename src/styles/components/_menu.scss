@@ -1,5 +1,9 @@
 .menu-bg {
-    background-color: fade-out($theme-red, .4);
+    background-color: fade-out($theme-red, .6);
+
+    &--dark {
+        background-color: fade-out($theme-red, .15);
+    }
 }
 
 .carousel-caption {

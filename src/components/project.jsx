@@ -44,7 +44,7 @@ class Project extends React.Component {
 
         return (
             <section id="projects" data-internal-link="#projects-link">
-                <div class="row no-gutters">
+                <div className="row no-gutters">
                     { this.projectData.map((p) => {
                         return <SingleProject key={p.id} data={p} />;
                     }) }
