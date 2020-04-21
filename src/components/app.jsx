@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './menu';
 import Carousel from './carousel';
 import About from './about';
+import Project from './project';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Menu />
             <Carousel />
             <About />
+            <Project />
         </div>
     );
 }
