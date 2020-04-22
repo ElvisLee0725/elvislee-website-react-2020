@@ -3,6 +3,7 @@ import Header from './header';
 import Carousel from './carousel';
 import About from './about';
 import Project from './project';
+import HireMe from './hire-me';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Carousel />
             <About />
             <Project />
+            <HireMe />
         </div>
     );
 }

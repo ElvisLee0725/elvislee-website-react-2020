@@ -1,0 +1,28 @@
+.progress{
+    background-color: $mainDarkGrey;
+    border-radius: 0px;
+    height: 15px;
+    margin-bottom: $s-size;
+}
+  
+.progress-bar--red {
+    background-color: $theme-red;
+}
+
+.skill-set h4 {
+    font-size: $m-size;
+}
+
+.skill-set span {
+    font-size: $s-size;
+}
+
+.reveal-item--is-visible .progress-bar {
+    animation: bar-grow 1s ease-out;
+}
+
+@keyframes bar-grow {
+    0% {
+        width: 0;
+    }
+}
