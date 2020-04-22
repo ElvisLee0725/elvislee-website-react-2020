@@ -38,7 +38,7 @@ class Header extends React.Component {
                         <div className="navbar-nav">
                             <a className="nav-item nav-link" href="#about">ABOUT</a>
                             <a className="nav-item nav-link" href="#projects">PROJECTS</a>
-                            <a className="nav-item nav-link" href="#">HIRE ME</a>
+                            <a className="nav-item nav-link" href="#hire-me">HIRE ME</a>
                             <a className="nav-item nav-link" href="#">CONTACT</a>
                             <a className="nav-item nav-link" href="#">RESUME</a>
                         </div>
