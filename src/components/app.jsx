@@ -4,6 +4,7 @@ import Carousel from './carousel';
 import About from './about';
 import Project from './project';
 import HireMe from './hire-me';
+import Contact from './contact';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <About />
             <Project />
             <HireMe />
+            <Contact />
         </div>
     );
 }
