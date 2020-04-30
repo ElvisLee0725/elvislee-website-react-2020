@@ -1,0 +1,9 @@
+.footer {
+    font-size: $xs-size;
+}
+
+@media(min-width: $desktop-breakpoint) {
+    .footer {
+        font-size: $s-size;
+    }
+}
