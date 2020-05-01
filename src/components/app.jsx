@@ -5,6 +5,7 @@ import About from './about';
 import Project from './project';
 import HireMe from './hire-me';
 import Contact from './contact';
+import ResumeModal from './resume-modal'
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Project />
             <HireMe />
             <Contact />
+            <ResumeModal />
         </div>
     );
 }
