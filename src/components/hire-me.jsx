@@ -34,7 +34,7 @@ class HireMe extends React.Component {
                 percent: '75'
             },
             {
-                name: 'NodeJS',
+                name: 'Node.js',
                 percent: '90'
             },
             {
