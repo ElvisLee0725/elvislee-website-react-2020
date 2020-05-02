@@ -26,8 +26,10 @@ class Modal {
         document.body.classList.remove('body-no-scroll');
     }
 
-    escapeKeyCloseModal() {
-
+    escapeKeyCloseModal(e) {
+        if(e.keyCode === 27) {
+            this.closeModal();
+        }
     }
 }
 

@@ -11,12 +11,12 @@
     transform: scale(1.2);
     transition: all .3s ease-out;
 
-    &__container {
-        padding: 5rem;
+    div {
+        font-size: $s-size;
     }
 
-    section {
-        margin-bottom: 40px;
+    &__container {
+        padding: $l-size $xl-size;
     }
 
     &--is-visible {
@@ -38,6 +38,12 @@
 
         &:hover {
             color: $theme-red;
+        }
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        &__container {
+            padding: $xxl-size;
         }
     }
 }
