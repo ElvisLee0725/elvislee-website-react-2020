@@ -6,6 +6,8 @@ class RevealOnScroll {
         this.revealItems = elements;
         this.threshold = threshold
         this.browserHeight = window.innerHeight;
+        this.scrollBtnThrottle = throttle(this.scrollBtnReveal, 500).bind(this);
+        this.scrollBtn = document.querySelector('.scroll-up-btn');
         this.hideInitially();
         // Use throttle to run calCaller every 200 ms
         this.scrollThrottle = throttle(this.calcCaller, 200).bind(this);
@@ -18,6 +20,16 @@ class RevealOnScroll {
         window.addEventListener("resize", debounce(() => {
             this.browserHeight = window.innerHeight;
         }, 500));
+        window.addEventListener("scroll", this.scrollBtnThrottle);
+    }
+
+    scrollBtnReveal() {
+        if(window.scrollY > 300) {
+            this.scrollBtn.classList.add('reveal-item--is-visible');
+        }
+        else {
+            this.scrollBtn.classList.remove('reveal-item--is-visible');
+        }
     }
 
     calcCaller() {
@@ -53,6 +65,8 @@ class RevealOnScroll {
         });
         // Get the last item which needs to reveal to assign isLastItem property
         this.revealItems[this.revealItems.length - 1].isLastItem = true;
+
+        this.scrollBtn.classList.add("reveal-item");
     }
 }
 export default RevealOnScroll;
