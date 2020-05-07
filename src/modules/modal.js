@@ -16,7 +16,6 @@ class Modal {
     }
 
     openModal() {
-        console.log("open modal clicked");
         this.modal.classList.add('resume-modal--is-visible');
         document.body.classList.add('body-no-scroll');
     }
