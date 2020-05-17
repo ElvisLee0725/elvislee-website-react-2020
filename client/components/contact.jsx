@@ -60,12 +60,16 @@ class Contact extends React.Component {
                 message
             }
 
-            fetch('//localhost:8080/api/formSend', {
+            fetch('/api/formSend', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(data)
+            }).then(response => {
+                console.log('success');
+            }).catch(err => {
+                console.log('Error: ', err.message);
             });
 
             this.setState({

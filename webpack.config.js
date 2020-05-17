@@ -1,9 +1,18 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const dotenv = require('dotenv');
+dotenv.config();
+
+const clientPath = path.join(__dirname, 'client/');
+const publicPath = path.join(__dirname, 'server/public');
 
 module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
+  },
+  entry: clientPath,
+  output: {
+    path: publicPath
   },
   module: {
     rules: [
@@ -29,9 +38,14 @@ module.exports = {
     ]
   },
   plugins: [new MiniCssExtractPlugin({ filename: 'styles.css'})],
+  devtool: 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    port: 3000,
+    contentBase: publicPath,
+    host: '0.0.0.0',
+    port: process.env.DEV_SERVER_PORT,
+    proxy: {
+      '/api': `http://localhost:${process.env.PORT}`
+    },
     stats: 'minimal'
   }
 }

@@ -8,13 +8,13 @@
         display: block;
         height: 50px;
         width: 50px;
-        color: #fff;
+        color: $offWhite;
         background-color: $theme-red;
         transition: all .5s;
     }
 
     .btn:hover {
-        background-color: #fff;
+        background-color: $offWhite;
         color: $theme-red;
     }
 }
