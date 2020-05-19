@@ -23,19 +23,19 @@ class Project extends React.Component {
             },
             {
                 id: 3,
-                title: 'Weather Master',
-                description: '',
-                url: '//www.elvislee.com/WeatherMaster',
-                img: '/images/weathermaster.jpg',
-                imgAlt: 'Weather Master Cover'
+                title: 'Flash Cards',
+                description: 'React.js, context and localStorage for data saving.',
+                url: 'https://www.elvislee.com/FlashCards',
+                img: '/images/flash-cards.jpg',
+                imgAlt: 'Flash Cards Cover'
             },
             {
                 id: 4,
-                title: 'JavaScript Ping-Pong Game',
-                description: '',
-                url: '//codepen.io/elvislee/pen/qxoBYj',
-                img: '/images/ping-pong.jpg',
-                imgAlt: 'Ping-Pong Cover'
+                title: 'Fun Searcher',
+                description: 'OOP javascript with integration of 3rd party apis.',
+                url: 'https://elvislee.com/FunSearcher',
+                img: '/images/fun-searcher.jpg',
+                imgAlt: 'Fun Searcher Cover'
             }
         ];
     }
