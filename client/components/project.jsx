@@ -15,11 +15,11 @@ class Project extends React.Component {
             },
             {
                 id: 2,
-                title: 'JavaScript Snake Game',
-                description: '',
-                url: '//codepen.io/elvislee/pen/jKLKGq',
-                img: '/images/snake.jpg',
-                imgAlt: 'Snake Game Cover'
+                title: 'The Small Circle Blog App',
+                description: 'Node.js, Express and MongoDB creating an user login blog.',
+                url: 'https://blog-app-elvislee.herokuapp.com',
+                img: '/images/small-circle.jpg',
+                imgAlt: 'The Small Circle Cover'
             },
             {
                 id: 3,
