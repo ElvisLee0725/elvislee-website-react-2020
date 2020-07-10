@@ -2,7 +2,7 @@
   "name": "elvisLee-website-2020",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "dev": "npm-run-all --silent --parallel dev:*",
     "dev:client": "webpack-dev-server",
