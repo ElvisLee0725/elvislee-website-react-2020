@@ -31,7 +31,7 @@ class HireMe extends React.Component {
       },
       {
         name: 'Express',
-        percent: '75',
+        percent: '80',
       },
       {
         name: 'Node.js',
@@ -54,11 +54,11 @@ class HireMe extends React.Component {
       },
       {
         name: 'GitHub',
-        percent: '80',
+        percent: '85',
       },
       {
         name: 'AWS',
-        percent: '75',
+        percent: '80',
       },
     ];
   }

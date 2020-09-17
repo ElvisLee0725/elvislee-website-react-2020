@@ -26,16 +26,17 @@ function ResumeModal() {
               <h5>TECHNICAL SKILLS</h5>
               <div>
                 <p>
-                  <b>Programming Languages</b> <br />
-                  JAVA, JavaScript (ES5/ES6), PHP, Python, C/C++, Ruby
+                  <b>Strong</b> <br />
+                  Java, JavaScript (ES5/ES6), React.js, Redux, Node.js, Express,
+                  HTML5, CSS3, Bootstrap 4
                 </p>
               </div>
               <div>
                 <p>
-                  <b>Libraries / Frameworks</b> <br />
-                  React.js, Redux, Node.js, Express, PM2, Webpack, NPM, jQuery,
-                  HTML5, CSS3, Bootstrap 4, SASS/SCSS, RESTful APIs, JSON,
-                  MySQL, PostgreSQL, MongoDB, Firebase
+                  <b>Experienced</b> <br />
+                  MySQL, PostgreSQL, MongoDB, Firebase, npm, Webpack, Babel,
+                  Axios, jQuery, SASS/SCSS, RESTful APIs, AJAX, JSON, PHP,
+                  Python 3, C/C++, Ruby
                 </p>
               </div>
               <div>
@@ -62,7 +63,8 @@ function ResumeModal() {
                   <b>LearningFuze</b>
                   <span className='float-right'>Irvine, CA, USA</span>
                   <br />
-                  Accelerated Web Development Program
+                  Accelerated Web Development Program, 700+ hours intensive
+                  courses
                 </p>
               </div>
             </section>
@@ -82,15 +84,8 @@ function ResumeModal() {
                 </p>
                 <ul>
                   <li>
-                    Redesign and construct a WordPress website for PalPilot
-                    International Corp. to fulfill business requirements while
-                    maintaining and updating the contents of the current WIX
-                    version company website
-                  </li>
-                  <li>
-                    Develop a front-end post managing function in WordPress
-                    allowing users to create, update and delete a post without
-                    logging into the WordPress CMS through RESTful APIs and Ajax
+                    Design the previous company website in WordPress and work
+                    closely with marketing to maintain the contents
                   </li>
                   <li>
                     Refer the WordPress Codex to program customized post types
@@ -105,14 +100,12 @@ function ResumeModal() {
                     contact, notifying a new lead to follow up
                   </li>
                   <li>
-                    Design a Unit Converter App to calculate units like length,
-                    area, volume, weight, pressure and temperature according to
-                    the user's inputs programmed in JAVA and apply JavaFX for
-                    the UI and run on Windows OS
+                    Design a Unit Converter app for the sales team, program in
+                    JAVA and apply JavaFX for the UI
                   </li>
                   <li>
-                    Assist the IT to manage employee accounts, email, and FTP to
-                    maintain web hosting and database backups
+                    Work with the IT manager to create email and FTP accounts
+                    and to maintain web hosting and database backups
                   </li>
                 </ul>
               </div>
@@ -133,9 +126,7 @@ function ResumeModal() {
                   </li>
                   <li>
                     Constructed the front-end of the app with React.js, styled
-                    with SCSS and Bootstrap 4 utilizing Hooks such as useState
-                    and useEffect from React 16.8 to use state without writing
-                    class components
+                    with SCSS and Bootstrap 4 and utilize React Hooks
                   </li>
                   <li>
                     Applied JSON Web Token to realize user authentication which
@@ -146,8 +137,12 @@ function ResumeModal() {
                     actions and reducers
                   </li>
                   <li>
-                    Implemented client side routing and private routes for
-                    logged in users only with React Router DOM
+                    Built client-side routing and private routes for logged in
+                    users only with React Router DOM
+                  </li>
+                  <li>
+                    Designed an user uploading profile image to the app account
+                    feature and all images are stored in AWS S3
                   </li>
                 </ul>
               </div>
