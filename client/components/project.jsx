@@ -34,7 +34,7 @@ class Project extends React.Component {
         id: 4,
         title: 'Fun Searcher',
         description:
-          'OOP JavaScript with integration of TicketMaster and Google Maps APIs',
+          'JavaScript OOP, jQuery, and integration of TicketMaster and Google Maps APIs',
         url: 'https://fun-searcher.elvislee.com/',
         img: '/images/fun-searcher.jpg',
         imgAlt: 'Fun Searcher Cover',
