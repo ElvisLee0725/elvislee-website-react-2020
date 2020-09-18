@@ -11,7 +11,8 @@ class Project extends React.Component {
         description:
           'React.js, Redux, Node.js, Express and PostgreSQL full-stack project',
         url: 'https://scp.elvislee.com/',
-        img: '/images/super-coupon-pocket.jpg',
+        img:
+          'https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/super-coupon-pocket.jpg',
         imgAlt: 'SCP Cover',
       },
       {
@@ -19,7 +20,8 @@ class Project extends React.Component {
         title: 'The Small Circle Blog App',
         description: 'Node.js, Express and MongoDB creating an user login blog',
         url: 'https://blog-app-elvislee.herokuapp.com',
-        img: '/images/small-circle.jpg',
+        img:
+          'https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/small-circle.jpg',
         imgAlt: 'The Small Circle Cover',
       },
       {
@@ -27,7 +29,8 @@ class Project extends React.Component {
         title: 'Flashcard',
         description: 'React.js, React context and localStorage for data saving',
         url: 'https://flashcard.elvislee.com/',
-        img: '/images/flashcard.jpg',
+        img:
+          'https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/flashcard.jpg',
         imgAlt: 'Flashcard Cover',
       },
       {
@@ -36,7 +39,8 @@ class Project extends React.Component {
         description:
           'JavaScript OOP, jQuery, and integration of TicketMaster and Google Maps APIs',
         url: 'https://fun-searcher.elvislee.com/',
-        img: '/images/fun-searcher.jpg',
+        img:
+          'https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/fun-searcher.jpg',
         imgAlt: 'Fun Searcher Cover',
       },
     ];
