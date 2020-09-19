@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function ResumeModal() {
+  const [contactData, setContact] = useState({ phoneVal: '', emailVal: '' });
+
+  const { phoneVal, emailVal } = contactData;
+
+  // Set phone and email after page load
+  useEffect(() => {
+    setContact({
+      phoneVal: '+1 (213) 880-5255',
+      emailVal: 'elvislee0725@gmail.com',
+    });
+  }, []);
+
   return (
     <div className='resume-modal'>
       <div className='container resume-modal__container'>
@@ -13,10 +25,10 @@ function ResumeModal() {
                 <i className='fa fa-map-marker fa-fw'></i>&nbsp;Orange County,
                 CA
                 <br />
-                <i className='fa fa-phone fa-fw'></i>&nbsp;+1 (213) 880-5255
+                <i className='fa fa-phone fa-fw'></i>&nbsp;{phoneVal}
                 <br />
                 <i className='fa fa-envelope-o fa-fw'></i>
-                &nbsp;elvislee0725@gmail.com
+                &nbsp;{emailVal}
                 <br />
               </p>
               <hr />
