@@ -4,7 +4,7 @@ function ScrollUpBtn() {
   return (
     <div className='scroll-up-btn'>
       <a className='btn' href='#'>
-        <i className='fa fa-angle-up'></i>
+        <i className='fas fa-angle-up'></i>
       </a>
     </div>
   );

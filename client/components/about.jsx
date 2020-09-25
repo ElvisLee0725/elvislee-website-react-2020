@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section id='about' className='pt-5 pb-5 page-section--grey'>
+    <section id='about' className='py-5 page-section--grey'>
       <div className='container'>
         <h2 className='text-center'>About Me</h2>
         <div className='row'>
@@ -26,6 +26,14 @@ function About() {
                 looking forward to entering this amazing industry and
                 contributing my skill to create useful apps for everyone.
               </p>
+              <div className='text-center mt-4'>
+                <a
+                  className='btn btn--download'
+                  href='https://drive.google.com/uc?export=download&id=1BmMcdedXmNWB4vLpAeCtGA77NIyUBuUB'
+                >
+                  Download
+                </a>
+              </div>
             </div>
           </div>
         </div>
