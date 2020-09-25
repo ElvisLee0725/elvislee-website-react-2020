@@ -160,16 +160,16 @@ class Contact extends React.Component {
 
               <div className='contact-icons pb-4'>
                 <a href='//twitter.com/elvislee0725' target='_blank'>
-                  <i className='fa fa-twitter'></i>
+                  <i className='fab fa-twitter'></i>
                 </a>
                 <a href='//www.facebook.com/elvislee0725' target='_blank'>
-                  <i className='fa fa-facebook-square'></i>
+                  <i className='fab fa-facebook-square'></i>
                 </a>
                 <a href='//github.com/ElvisLee0725' target='_blank'>
-                  <i className='fa fa-github'></i>
+                  <i className='fab fa-github'></i>
                 </a>
                 <a href='//www.linkedin.com/in/elvislee' target='_blank'>
-                  <i className='fa fa-linkedin'></i>
+                  <i className='fab fa-linkedin'></i>
                 </a>
               </div>
             </div>

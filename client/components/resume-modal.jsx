@@ -22,13 +22,15 @@ function ResumeModal() {
               <h3>ELVIS LEE</h3>
               <hr />
               <p>
-                <i className='fa fa-map-marker fa-fw'></i>&nbsp;Orange County,
-                CA
+                <i className='fas fa-map-marker-alt fa-fw'></i>&nbsp;Orange
+                County, CA
                 <br />
-                <i className='fa fa-phone fa-fw'></i>&nbsp;{phoneVal}
+                <i className='fas fa-mobile-alt fa-fw'></i>&nbsp;
+                <a href={`tel:${phoneVal}`}>{phoneVal}</a>
                 <br />
-                <i className='fa fa-envelope-o fa-fw'></i>
-                &nbsp;{emailVal}
+                <i className='far fa-envelope fa-fw'></i>
+                &nbsp;
+                <a href={`mailto:${emailVal}`}>{emailVal}</a>
                 <br />
               </p>
               <hr />
