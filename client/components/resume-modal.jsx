@@ -197,6 +197,14 @@ function ResumeModal() {
             </section>
           </div>
         </div>
+        <div className='text-center mt-4'>
+          <a
+            className='btn btn--download'
+            href='https://drive.google.com/uc?export=download&id=1BmMcdedXmNWB4vLpAeCtGA77NIyUBuUB'
+          >
+            <i className='fas fa-file-download'></i>&nbsp;Download CV
+          </a>
+        </div>
       </div>
       <div className='resume-modal__close'>X</div>
     </div>

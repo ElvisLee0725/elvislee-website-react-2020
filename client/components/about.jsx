@@ -31,7 +31,7 @@ function About() {
                   className='btn btn--download'
                   href='https://drive.google.com/uc?export=download&id=1BmMcdedXmNWB4vLpAeCtGA77NIyUBuUB'
                 >
-                  Download
+                  <i className='fas fa-file-download'></i>&nbsp;Download CV
                 </a>
               </div>
             </div>
