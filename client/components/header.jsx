@@ -23,9 +23,9 @@ class Header extends React.Component {
 
   headerScroll() {
     if (window.scrollY > 70) {
-      this.siteHeader.classList.add('menu-bg--dark');
+      this.siteHeader.classList.add('menu-bg--show');
     } else {
-      this.siteHeader.classList.remove('menu-bg--dark');
+      this.siteHeader.classList.remove('menu-bg--show');
     }
   }
 
