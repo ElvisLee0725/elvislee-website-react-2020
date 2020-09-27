@@ -107,11 +107,11 @@ class Contact extends React.Component {
     const { errors, successMsg } = this.state;
 
     return (
-      <section id='contact' className='pt-5 pb-5 text-center contact-bg'>
+      <section id='contact' className='py-5 text-center contact-bg'>
         <div className='container'>
           <h2>Contact</h2>
           <div className='row'>
-            <div className='col-10 offset-1 col-sm-6 offset-sm-3'>
+            <div className='col-10 offset-1 col-md-6 offset-md-3'>
               <form className='py-4' onSubmit={this.handleSubmit}>
                 {successMsg && (
                   <div className='alert alert-success small'>{successMsg}</div>
