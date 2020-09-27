@@ -60,8 +60,8 @@ class Header extends React.Component {
                 </a>
               </li>
               <li data-toggle='collapse' data-target='.navbar-collapse.show'>
-                <a className='nav-item nav-link' href='#hire-me'>
-                  HIRE ME
+                <a className='nav-item nav-link' href='#skills'>
+                  SKILLS
                 </a>
               </li>
               <li data-toggle='collapse' data-target='.navbar-collapse.show'>
