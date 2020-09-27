@@ -3,24 +3,24 @@ import Header from './header';
 import Carousel from './carousel';
 import About from './about';
 import Project from './project';
-import HireMe from './hire-me';
+import Skills from './skills';
 import Contact from './contact';
 import ResumeModal from './resume-modal';
 import ScrollUpBtn from './scroll-up-btn';
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <ScrollUpBtn />
-            <Carousel />
-            <About />
-            <Project />
-            <HireMe />
-            <Contact />
-            <ResumeModal />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <ScrollUpBtn />
+      <Carousel />
+      <About />
+      <Project />
+      <Skills />
+      <Contact />
+      <ResumeModal />
+    </div>
+  );
 }
 
 export default App;

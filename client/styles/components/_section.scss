@@ -1,9 +1,14 @@
 .page-section {
-    &--grey {
-        background-color: $bgGrey;
-    }
+  &--grey {
+    background-color: $bgGrey;
+  }
 
-    &--no-padding {
-        padding: 0;
-    }
+  &--red {
+    background-color: $theme-red;
+    color: $offWhite;
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
 }
