@@ -112,7 +112,7 @@ class Contact extends React.Component {
           <h2>Contact</h2>
           <div className='row'>
             <div className='col-10 offset-1 col-md-6 offset-md-3'>
-              <form className='py-4' onSubmit={this.handleSubmit}>
+              <form className='py-4 contact-form' onSubmit={this.handleSubmit}>
                 {successMsg && (
                   <div className='alert alert-success small'>{successMsg}</div>
                 )}

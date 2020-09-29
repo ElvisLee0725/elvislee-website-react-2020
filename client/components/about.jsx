@@ -29,7 +29,7 @@ function About() {
               <div className='text-center mt-4'>
                 <a
                   className='btn btn--download'
-                  href='https://drive.google.com/uc?export=download&id=1BmMcdedXmNWB4vLpAeCtGA77NIyUBuUB'
+                  href='https://drive.google.com/uc?export=download&id=18A2doU886Fl8MEoxBDzCAC4oR6jZGAVl'
                 >
                   <i className='fas fa-file-download'></i>&nbsp;Download CV
                 </a>
