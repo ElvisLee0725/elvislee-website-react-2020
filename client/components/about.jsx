@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadCV from './downloadCV-btn';
 
 function About() {
   return (
@@ -26,14 +27,7 @@ function About() {
                 looking forward to entering this amazing industry and
                 contributing my skill to create useful apps for everyone.
               </p>
-              <div className='text-center mt-4'>
-                <a
-                  className='btn btn--download'
-                  href='https://drive.google.com/uc?export=download&id=18A2doU886Fl8MEoxBDzCAC4oR6jZGAVl'
-                >
-                  <i className='fas fa-file-download'></i>&nbsp;Download CV
-                </a>
-              </div>
+              <DownloadCV />
             </div>
           </div>
         </div>
