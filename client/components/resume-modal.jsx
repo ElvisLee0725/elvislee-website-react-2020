@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DownloadCV from './downloadCV-btn';
 
 function ResumeModal() {
   const [contactData, setContact] = useState({ phoneVal: '', emailVal: '' });
@@ -197,14 +198,7 @@ function ResumeModal() {
             </section>
           </div>
         </div>
-        <div className='text-center mt-4'>
-          <a
-            className='btn btn--download'
-            href='https://drive.google.com/uc?export=download&id=18A2doU886Fl8MEoxBDzCAC4oR6jZGAVl'
-          >
-            <i className='fas fa-file-download'></i>&nbsp;Download CV
-          </a>
-        </div>
+        <DownloadCV />
       </div>
       <div className='resume-modal__close'>X</div>
     </div>
