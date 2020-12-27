@@ -22,6 +22,21 @@
   font-size: $s-size;
 }
 
+.typing-cursor {
+  border-right: 0.2rem solid #ddd;
+  animation: cursorBlink 0.8s infinite;
+}
+
+@keyframes cursorBlink {
+  from {
+    border-right: 0.2rem solid transparent;
+  }
+
+  to {
+    border-right: 0.2rem solid #ddd;
+  }
+}
+
 @media (min-width: $desktop-breakpoint) {
   .large-hero__title {
     font-size: $l-size;

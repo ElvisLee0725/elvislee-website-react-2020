@@ -70,7 +70,10 @@ class Contact extends React.Component {
         body: JSON.stringify(data),
       })
         .then((response) => {
-          console.log('success');
+          return response.json();
+        })
+        .then((res) => {
+          console.log(res);
         })
         .catch((err) => {
           console.log('Error: ', err.message);
