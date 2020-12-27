@@ -18,7 +18,6 @@ function Carousel() {
                 className='active'
               ></li>
               <li data-target='#elvisCarousel' data-slide-to='1'></li>
-              <li data-target='#elvisCarousel' data-slide-to='2'></li>
             </ol>
 
             <div className='carousel-inner' role='listbox'>
@@ -44,6 +43,7 @@ function Carousel() {
                 </picture>
               </div>
 
+              { /*
               <div className='carousel-item'>
                 <picture>
                   <source
@@ -67,41 +67,42 @@ function Carousel() {
                 <div>
                   <div className='carousel-caption'>
                     <h3 className='large-hero__title'>
-                      A Belief to Shine One Day
-                    </h3>
-                    <h4 className='large-hero__subtitle'>
+                      A Belief to Shine One Day 
+                      </h3>
+                      <h4 className='large-hero__subtitle'>
                       Efforts weigh more than talents
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div className='carousel-item'>
-                <picture>
-                  <source
+                      </h4>
+                      </div>
+                      </div>
+                      </div>
+                */ } 
+                <div className='carousel-item'>
+                  <picture>
+                    <source
                     srcSet='https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/coding_cover-large.jpg'
                     media='(min-width: 1380px)'
-                  />
-                  <source
+                    />
+                    <source
                     srcSet='https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/coding_cover-medium.jpg'
                     media='(min-width: 990px)'
-                  />
-                  <source
+                    />
+                    <source
                     srcSet='https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/coding_cover-small.jpg'
                     media='(min-width: 640px)'
-                  />
-                  <img
+                    />
+                    <img
                     src='https://ubuntu-ec2-s3.s3-us-west-1.amazonaws.com/elvislee/images/coding_cover-xs.jpg'
                     className='d-block w-100'
                     alt='Elvis Lee Coding Cover'
-                  />
-                </picture>
-                <div>
-                  <div className='carousel-caption'>
+                    />
+                  </picture>
+                  <div>
+                    <div className='carousel-caption'>
                     <h3 className='large-hero__title'>
-                      A Programmer's Life Style
+                    I'm Elvis Lee the <span id='typewriter' data-words='["Full Stack Developer", "Software Engineer", "Programmer"]' data-wait='1500'></span>
                     </h3>
                     <h4 className='large-hero__subtitle'>
-                      Work with passion and perseverance
+                    Work with passion and perseverance
                     </h4>
                   </div>
                 </div>
