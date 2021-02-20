@@ -5,7 +5,7 @@ const DownloadCV = () => {
     <div className='text-center mt-4'>
       <a
         className='btn btn--download'
-        href='https://drive.google.com/uc?export=download&id=1Wtm-0rUInY-8Xtayi4EF_jBzyrLslzyS'
+        href='https://drive.google.com/uc?id=1nCoq4I8Cmo9Ru39nNx4CcBZTJY9pj2tf&export=download'
       >
         <i className='fas fa-file-download'></i>&nbsp;Download CV
       </a>

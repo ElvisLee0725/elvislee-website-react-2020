@@ -116,7 +116,7 @@ function ResumeModal() {
                   </li>
                   <li>
                     Design a Unit Converter app for the sales team, program in
-                    JAVA and apply JavaFX for the UI
+                    Java and apply JavaFX for the UI
                   </li>
                   <li>
                     Work with the IT manager to create email and FTP accounts
