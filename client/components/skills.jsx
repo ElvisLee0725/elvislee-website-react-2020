@@ -87,18 +87,18 @@ const Skills = () => {
     <Fragment>
       <section id='skills' className='page-section--red long-padding'>
         <div className='container'>
-          <h2 className='text-center'>My skills</h2>
+          <h2 className='text-center'>My Skills</h2>
           <div className='row'>
             <div className='col-10 offset-1 py-4'>
               <p>
-                I am capable building a website that meets your need. From small
+                I am capable of building a website that meets your needs. From small
                 scale websites with a built-in CMS such as WordPress, to large
                 scale websites that require a development team with both
-                front-end and back-end engineers working togehter. With version
+                front-end and back-end engineers working together. With version
                 control tool experience like github / bitbucket, and knowledge
                 from my MS Computer Science degree, I am ready to work with
-                other experienced developers since I care not only to get things
-                work, but also work efficiently with high performance!
+                other experienced developers since I care not only to get things to work,
+                 but also work efficiently with high performance!
               </p>
             </div>
           </div>
