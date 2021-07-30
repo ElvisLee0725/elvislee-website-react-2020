@@ -21,11 +21,11 @@ function About() {
                 Elvis Presley and Rock 'n' Roll, and I do coding as well. I live
                 in Irvine, California currently, and I'm interested in web
                 technologies and very excited about being a web developer in the
-                United States. Besides studying coding quesitons and developing
-                my own website for experiment, I am also learning new
-                technologies such as Node.js, Express, React and MongoDB. I'm
+                United States. Besides studying algorithm coding questions and developing
+                my own website for experiment, I am also using new
+                technologies such as Node.js, Express, React, Redux and MongoDB. I'm
                 looking forward to entering this amazing industry and
-                contributing my skill to create useful apps for everyone.
+                contributing my skills to create useful apps for everyone.
               </p>
               <DownloadCV />
             </div>
