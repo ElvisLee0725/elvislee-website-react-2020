@@ -32,7 +32,14 @@ module.exports = {
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin({ filename: 'styles.css' })],
+  plugins: [
+    new MiniCssExtractPlugin({ filename: 'styles.css' }),
+  ],
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
   devtool: 'source-map',
   devServer: {
     contentBase: publicPath,
